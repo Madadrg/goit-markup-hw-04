@@ -1,0 +1,467 @@
+:root {
+    --highlight-color: #2196F3;
+}
+
+.main-navigation .nav-link .current{
+color: var(--highlight-color);
+}
+
+
+body {
+    color:#212121;
+    font-family: Roboto, sans-serif;
+}
+
+.current{
+    color: var(--highlight-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.solutions-for-business {
+    background-color: #2F303A;
+}
+
+.solutions-for-business button {
+    background-color:#2196F3;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2.14;
+    letter-spacing: 6%;
+    text-align: center;
+}
+
+.solutions-for-business button:hover,
+.solutions-for-business button:focus {
+    cursor: pointer;
+    background-color:#1c8fee;
+    text-shadow: 0px 4px 4px 0px #00000026;
+}
+
+
+.team {
+    background-color:#F5F4FA;
+}
+
+.team-members {
+    background-color: white;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 4.28;
+    letter-spacing: 6%;
+    text-align: center;
+}
+
+h2 {
+    color: background: #212121;    ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 3.01;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+h3 {
+    color: background: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+}
+
+h4 {
+    color: background: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+p {
+    color: background: #757575;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.types-of-projects button {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    color: #212121;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 3%;
+}
+
+.projects .types-of-projects button:hover,
+.projects .types-of-projects button:focus {
+    color:#FFFFFF;
+    background-color:#2196F3;
+}
+
+.project-title {
+    color: background: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.57;
+    letter-spacing: 6%;
+}
+
+.project-type {
+    color:background: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.14;
+    letter-spacing: 3%;
+}
+
+.global-header .main-navigation a {
+    color:#212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
+.global-header .main-navigation a:hover,
+.global-header .main-navigation a:focus { 
+    color:var(--highlight-color);
+}
+
+.contacts-header a {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
+.contacts-header a:hover,
+.contacts-header a:focus {
+color:#2196F3;
+}
+
+.contacts-header2 a {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
+.contacts-header2 a:hover,
+.contacts-header2 a:focus {
+color:#2196F3;
+}
+
+.address {
+    background-color: #2F303A;
+}
+
+.address a {
+    text-decoration: none;
+}
+.address a:link
+.address a:focus {
+    color:#FFFFFF99;
+}
+
+.address-footer {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    font-style: normal;
+}
+
+.address .contacts-footer a {
+    color:#FFFFFF99;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    font-style: normal;
+}
+
+.address .contacts-footer a:hover,
+.address .contacts-footer a:focus {
+color:#2196F3;
+}
+
+.Web {
+    color: #2196f3;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    letter-spacing: 3%;
+}
+
+.Studio {
+    color:#FFFFFF;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    letter-spacing: 3%;
+}
+.Web-header {
+    color:#2196f3;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    letter-spacing: 3%;
+}
+
+.Studio-header {
+    color:#000000 ;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    letter-spacing: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.global-header .main-navigation ul {
+    display: flex; 
+    width: 259px;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 32px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 215px;
+}
+
+.contacts-header {
+    display: flex;
+    flex-direction: row;
+    margin-right: 225px;
+    gap: 40px;
+    padding-left: 385px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.solutions-for-business h1 {
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+.values{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    width: 1170px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.values h3{
+    padding-top: 94px;
+}
+.values p{
+    text-align: left;
+}
+
+.what-we-do ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    gap: 30px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 94px;
+}
+
+.what-we-do h2{
+    padding-bottom: 50px;
+}
+
+
+.team h2 {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+
+.team ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    gap: 30px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-bottom: 94px;
+}
+
+.team-page1 h4 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.team-page1 p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.value-item {
+    flex-basis: calc((100% - 120px) / 4);
+}
+
+.value-item h3 {
+    padding-bottom: 10px;
+   }
+   
+.solutions-for-business{
+    height: 600px;
+   }
+
+.solutions-for-business button {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 19px;
+}
+
+.solutions-for-business h1 {
+    line-height: 60px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+
+
+.portfolio-container {
+    width: 1170px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-bottom: 94px;
+}
+
+.types-of-projects ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 174px;
+    width: 516px;
+    gap: 8px;
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    white-space: nowrap;
+}
+
+.types-of-projects button {
+    padding: 6px 22px;
+}
+
+ .card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding:0;
+  list-style: none;
+  border-bottom: border: 1px solid #EEEEEE;
+  }
+
+  .items {
+    flex-basis: calc((100% - 90px) / 3);
+    border-bottom: 1px solid #EEEEEE;
+  }
+
+
+  .container {
+    width: 1600px;
+    align-items: center;
+}
+
+.global-header {
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 0px;
+}
+
+.contacts-header2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 225px;
+    gap: 40px;
+    padding-left: 376px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.address{
+padding-top: 0px;
+}
+
+.address-container {
+    padding-top: 60px;
+    padding-bottom: 28px;
+    margin-left: 215px;
+}
+
+.team-page1 {
+    margin-bottom: 0px;
+}
+
+.address-footer{
+    padding-top: 28px;
+    padding-bottom: 12px;
+}
+
+.contacts-footer .mail-footer {
+    display: flex;
+    padding-top: 12px;
+}
+
+.contacts-footer .phone-number-footer {
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 60px;
+}
