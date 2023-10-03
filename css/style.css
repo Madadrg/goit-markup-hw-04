@@ -244,8 +244,23 @@ a {
 }
 
 
+.social-media {
+    width: 206px;
+    padding-top: 75px;
+    padding-bottom: 96px;
+    padding-left: 516px;
+}
 
 
+.social-media p {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 
 
 
@@ -465,3 +480,13 @@ padding-top: 0px;
     padding-top: 12px;
     padding-bottom: 60px;
 }
+
+
+.icon-envelope {
+    width: 16px;
+}
+
+.icon-smartphone {
+    width: 10px;
+}
+
