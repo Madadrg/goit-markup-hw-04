@@ -2,7 +2,7 @@
     --highlight-color: #2196F3;
 }
 
-.main-navigation .nav-link .current{
+.current{
 color: var(--highlight-color);
 }
 
@@ -285,15 +285,6 @@ color: #FFFFFF;
     margin-left: 215px;
 }
 
-.contacts-header {
-    display: flex;
-    flex-direction: row;
-    margin-right: 225px;
-    gap: 40px;
-    padding-left: 385px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 
 .solutions-for-business h1 {
     padding-top: 200px;
@@ -372,6 +363,12 @@ color: #FFFFFF;
    
 .solutions-for-business{
     height: 600px;
+    background-image: url("../images/image-background.jpg");
+   }
+
+   .image-overlay {
+    height: 600px;
+    background-color: rgba(47, 48, 58, 0.4);
    }
 
 .solutions-for-business button {
@@ -482,6 +479,10 @@ padding-top: 0px;
 }
 
 
+
+
+
+
 .icon-envelope {
     width: 16px;
 }
@@ -490,3 +491,44 @@ padding-top: 0px;
     width: 10px;
 }
 
+
+.social-media-team {
+    width: 206px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.icon-socials {
+    width: 20px;
+}
+
+.icon-envelope:hover {
+fill: var(--highlight-color);
+}
+
+
+.mail-header {
+    width: 161px;
+    gap: 10px;
+}
+
+.phone-header {
+    width: 132px;
+    gap:10px;
+}
+
+.contacts-header {
+    width: 333px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 225px;
+    gap: 40px;
+    padding-left: 330px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
