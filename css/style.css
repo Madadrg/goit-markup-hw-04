@@ -330,6 +330,9 @@ color: #FFFFFF;
     padding-bottom: 50px;
 }
 
+.team {
+    background: #F5F4FA;
+}
 
 .team ul{
     display: flex;
@@ -531,4 +534,46 @@ fill: var(--highlight-color);
     padding-left: 330px;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+
+
+
+
+.customers {
+    width: 170px;
+    height: 92px;
+    background: #AFB1B8;
+    border: 1px solid #AFB1B8
+}
+
+.icon-customers {
+    width: 41px;
+}
+
+.regular-customers {
+    background-color: #FFFFFF;
+}
+
+.regular-customers h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    padding-bottom: 50px;
+}
+
+.customer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    gap: 30px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 94px;
 }
