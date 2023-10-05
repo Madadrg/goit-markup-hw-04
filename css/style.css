@@ -543,12 +543,11 @@ fill: var(--highlight-color);
 .customers {
     width: 170px;
     height: 92px;
-    background: #AFB1B8;
     border: 1px solid #AFB1B8
 }
 
 .icon-customers {
-    width: 41px;
+    width: 106px;
 }
 
 .regular-customers {
