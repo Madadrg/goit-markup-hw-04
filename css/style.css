@@ -2,19 +2,18 @@
     --highlight-color: #2196F3;
 }
 
-.current{
-color: var(--highlight-color);
-}
-
-
-nav-link{
-    color: #212121;
+.nav-link {
+    color:#212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 2%;
     text-decoration: none;
 }
+
+.current {
+    color: var(--highlight-color);
+}   
 
 body {
     color:#212121;
@@ -669,6 +668,7 @@ text-transform: uppercase;
     align-items: center;
     justify-content: center;
     transition: #fff;
+    fill: gray;
 }
 
 .socials-team svg {
@@ -723,3 +723,10 @@ box-shadow: 0px 1px 3px 0px #0000001F;
     fill: #FFFFFF;
   }
 
+  .customer-icons svg:hover {
+    fill: var(--highlight-color);
+  }
+
+  .customers svg {
+    fill: gray;
+  }
