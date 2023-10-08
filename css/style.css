@@ -153,6 +153,11 @@ p {
     text-decoration: none;
 }
 
+.contacts-header {
+    display: flex;
+    gap: 40px;
+}
+
 .contacts-header a:hover,
 .contacts-header a:focus {
 color:#2196F3;
@@ -480,29 +485,44 @@ padding-top: 0px;
 
 .icon-envelope {
     width: 16px;
+    height: 16px;
+    flex-shrink: 0;
 }
 
 .icon-smartphone {
     width: 10px;
+    flex-shrink: 0;
 }
 
 .mail-header {
-    width: 161px;
-    height: 16px;
-    gap: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   gap: 10px;
+   margin-left: 330px;
+   margin-right: 40px;
 }
 
 .phone-header {
-    width: 132px;
-    height: 16px;
-    gap: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row-reverse;
     align-items: center;
+    gap: 10px;
+    margin-right: 225px;
 }
+
+
+
+.phone-header:hover svg {fill: var(--highlight-color);}
+.phone-header:hover a {color: var(--highlight-color);}
+.phone-header:focus svg {fill: var(--highlight-color);}
+.phone-header:focus a {color: var(--highlight-color);}
+
+.mail-header:hover svg {fill: var(--highlight-color);}
+.mail-header:hover a {color: var(--highlight-color);}
+.mail-header:focus svg {fill: var(--highlight-color);}
+.mail-header:focus a {color: var(--highlight-color);}
+
 
 
 .social-media-team {
