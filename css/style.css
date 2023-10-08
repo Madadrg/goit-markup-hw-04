@@ -727,6 +727,12 @@ box-shadow: 0px 1px 3px 0px #0000001F;
     fill: var(--highlight-color);
   }
 
+
   .customers svg {
     fill: gray;
   }
+
+  .customers:hover {
+background-color: #FFFFFF;
+border-color: var(--highlight-color);
+}
