@@ -7,6 +7,15 @@ color: var(--highlight-color);
 }
 
 
+nav-link{
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
 body {
     color:#212121;
     font-family: Roboto, sans-serif;
@@ -130,14 +139,7 @@ p {
     letter-spacing: 3%;
 }
 
-.global-header .main-navigation a {
-    color:#212121;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 2%;
-    text-decoration: none;
-}
+
 
 .global-header .main-navigation a:hover,
 .global-header .main-navigation a:focus { 
